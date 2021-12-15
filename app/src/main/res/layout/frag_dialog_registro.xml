@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo3">
+
+    <ImageButton
+        android:id="@+id/ib_atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button"
+        android:padding="5dp"
+        android:src="@drawable/ic_close"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:id="@+id/ll_opciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/standard_3"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/registro_de_usuario"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/texto1"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/texto1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_registro"
+                android:layout_width="@dimen/img84"
+                android:layout_height="@dimen/img84"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/standard_5"
+                android:src="@drawable/ic_login"/>
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/standard_3"
+                android:text="@string/nombre"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/teal_700" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/standard_3"
+                android:text="@string/email"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/teal_700" />
+
+            <TextView
+                android:id="@+id/tv_provider_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/standard_3"
+                android:text="@string/provider"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/teal_700" />
+
+            <LinearLayout
+                android:id="@+id/ll_qr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="@string/qr_de_transaccion"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/texto1"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="@dimen/standard_30"
+                    android:layout_marginRight="@dimen/standard_30"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/texto1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/standard_1"
+                    android:text="@string/codigo_qr_1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/texto1" />
+
+                <ImageButton
+                    android:id="@+id/ib_qr_1"
+                    android:layout_width="@dimen/img104"
+                    android:layout_height="@dimen/img104"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/standard_2"
+                    android:background="@color/fui_transparent"
+                    android:src="@mipmap/ic_launcher"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/standard_1"
+                    android:text="@string/codigo_qr_2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/texto1" />
+
+                <ImageButton
+                    android:id="@+id/ib_qr_2"
+                    android:layout_width="@dimen/img104"
+                    android:layout_height="@dimen/img104"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/standard_2"
+                    android:background="@color/fui_transparent"
+                    android:src="@mipmap/ic_launcher"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:contentDescription="@string/todo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_pagar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="@string/pagar_servicio"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/texto1"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="@dimen/standard_80"
+                    android:layout_marginRight="@dimen/standard_80"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/texto1" />
+
+                <ImageButton
+                    android:id="@+id/ib_qr_pagar"
+                    android:layout_width="@dimen/img104"
+                    android:layout_height="@dimen/img104"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/standard_2"
+                    android:background="@color/fui_transparent"
+                    android:src="@mipmap/ic_launcher"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:id="@+id/tv_qr_pagar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/standard_1"
+                    android:text="@string/codigo_qr_1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/texto1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_cerrar"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/standard_40"
+                    android:layout_margin="@dimen/standard_5"
+                    android:background="@drawable/button"
+                    android:padding="@dimen/standard_5"
+                    android:text="@string/cerrar_sesion"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/texto2"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/btn_subir"
+                    android:layout_width="140dp"
+                    android:layout_height="@dimen/standard_40"
+                    android:layout_margin="@dimen/standard_5"
+                    android:background="@drawable/button"
+                    android:padding="@dimen/standard_5"
+                    android:text="@string/subir_comprobante"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/texto2"
+                    android:visibility="visible"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

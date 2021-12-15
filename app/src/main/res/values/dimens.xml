@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="standard_1">1dp</dimen>
+    <dimen name="standard_2">2dp</dimen>
+    <dimen name="standard_3">3dp</dimen>
+    <dimen name="standard_5">5dp</dimen>
+    <dimen name="standard_10">10dp</dimen>
+    <dimen name="standard_20">20dp</dimen>
+    <dimen name="standard_30">30dp</dimen>
+    <dimen name="standard_40">40dp</dimen>
+    <dimen name="standard_50">50dp</dimen>
+    <dimen name="standard_60">60dp</dimen>
+    <dimen name="standard_70">70dp</dimen>
+
+    <dimen name="standard_80">80dp</dimen>
+    <dimen name="standard_220">220dp</dimen>
+    <dimen name="standard_200">200dp</dimen>
+    <dimen name="standard_500">500dp</dimen>
+    <dimen name="standard_490">490dp</dimen>
+
+    <dimen name="standard__55">-55dp</dimen>
+    <dimen name="standard__100">-100dp</dimen>
+    <dimen name="standard__145">-145dp</dimen>
+
+    <dimen name="img64">64dp</dimen>
+    <dimen name="img84">84dp</dimen>
+    <dimen name="img104">104dp</dimen>
+    <dimen name="img134">134dp</dimen>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo1"
+    tools:context=".InicioActivity">
+
+    <ImageView
+        android:id="@+id/iv_inicio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_icono"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/iv_inicio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/todo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correo"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_above="@+id/tv_derechos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_centerHorizontal="true"
+        app:drawableLeftCompat="@drawable/ic_correo"/>
+
+    <TextView
+        android:id="@+id/tv_derechos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/derechos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

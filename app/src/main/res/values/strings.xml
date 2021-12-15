@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Interfaz</string>
+
+    <string name="salir">Salir</string>
+    <string name="emergencia">CONTACTO DE EMERGENCIA</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="conectado">Conectado</string>
+    <string name="desconectado">Sin Conexión</string>
+    <string name="informacion">Información</string>
+    <string name="cantidad_de_dinero">Cantidad de dinero en Bolivianos</string>
+    <string name="numero_de_integrantes">Numero de integrantes</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="sin_pasaje">Pasaje sin dato</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="sin_datos">Sin datos</string>
+
+    <string name="pasaje_1_50">Pasaje 1.50 Bs</string>
+    <string name="pasaje_1_80">Pasaje 1.80 Bs</string>
+    <string name="pasaje_2_00">Pasaje 2.00 Bs</string>
+    <string name="pasaje_2_20">Pasaje 2.20 Bs</string>
+    <string name="pasaje_2_60">Pasaje 2.60 Bs</string>
+    <string name="pasaje_2_80">Pasaje 2.80 Bs</string>
+
+    <string name="pasaje_150_180">Pasaje 1.50–180 Bs</string>
+    <string name="pasaje_200_220">Pasaje 2.00–2.20 Bs</string>
+    <string name="pasaje_260_280">Pasaje 2.60–2.80 Bs</string>
+
+
+    <string name="dinero_insuficiente">DINERO INSUFICIENTE</string>
+    <string name="derechos">© 2021 Ivr  Technology</string>
+    <string name="datos_para_el_cambio">DATOS PARA EL CAMBIO</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="pasaje">Pasaje</string>
+    <string name="error">Datos Incorrectos</string>
+    <string name="llamar">Llamar</string>
+    <string name="moneda_fraccionada"> Por favor pague con moneda fraccionada.</string>
+    <string name="antes_de_bajar"> Por favor avise una cuadra antes de bajar.</string>
+    <string name="correo">iverflores6@gmail.com</string>
+    <string name="me_quedo_esquina">Me quedo esquina</string>
+    <string name="me_quedo_pasarela">Me quedo pasarela </string>
+    <string name="me_quedo_aqui">Me quedo aquí</string>
+    <string name="cambio">Cambio</string>
+    <string name="busca_tu_parada">Busca tu parada</string>
+    <string name="ingresa_origen">INGRESA EL ORIGEN Y DESTINO</string>
+    <string name="ruta">Ruta</string>
+    <string name="linea">Linea</string>
+    <string name="hora">Hora</string>
+    <string name="origen">Origen (opcional)</string>
+    <string name="destino">Destino</string>
+    <string name="buscar">Buscar</string>
+
+    <string name="spn_title">Choose a language</string>
+    <string name="buscar_rutas">Ver ruta</string>
+    <string name="si_tiene_una_linea">INGRESE LA LINEA PARA VER LA RUTA</string>
+    <string name="busque_su_linea">Busque su linea</string>
+    <string name="busque_su_ruta">Busque su ruta</string>
+    <string name="consejos_importantes">CONSEJOS IMPORTANTES</string>
+    <string name="busque_su_linea_o_ruta">BUSQUE SU LINEA O RUTA MAS SERCANA</string>
+    <string name="use_con_responsabilidad">Use con responsabilidad esta función, caso contrario se cortara el servicio</string>
+    <string name="advertencia">ADVERTENCIA</string>
+    <string name="escanee_codigo">ESCANEE EL CÓDIGO QR DEL VEHÍCULO</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="ilustraciones_de_ayuda">ILUSTRACIONES DE AYUDA</string>
+
+    <string name="preferences_name">prefs_apps</string>
+    <string name="result_ide">result_ide</string>
+    <string name="flash">Flash</string>
+    <string name="leer_codigo_qr">LEER CODIGO QR</string>
+    <string name="ip">Ip</string>
+    <string name="mascara">Mascara</string>
+    <string name="gateway">Gateway</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="grupo">Grupo</string>
+    <string name="ssid">Ssid</string>
+    <string name="password">Password</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="ver_datos">VER DATOS</string>
+    <string name="reiniciar">REINICIAR</string>
+    <string name="configuracion">CONFIGURACION</string>
+    <string name="generar_qr">GENERAR QR</string>
+    <string name="me_quedo_al_frente">Me quedo al frente</string>
+    <string name="ver_ida">Ver ida</string>
+    <string name="ver_buelta">Ver buelta</string>
+    <string name="registro">Registro</string>
+    <string name="result_registro">result registro</string>
+
+    <string name="email">Correo</string>
+    <string name="provider">Proveedor</string>
+    <string name="sign_out">Cerrar Sesión</string>
+    <string name="facebook_application_id">241938430770699</string>
+    <string name="fb_login_protocol_scheme">fb241938430770699</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="registro_de_usuario">REGISTRO DE USUARIO</string>
+    <string name="registro_de_conductor">REGISTRO DE CONDUCTOR</string>
+    <string name="qr_de_transaccion">CODIGO QR DE TRANSACCION BANCARIA</string>
+    <string name="codigo_qr_1">Codigo QR 1 día (2.00 Bs)</string>
+    <string name="codigo_qr_2">Codigo QR 2 noche (2.20 Bs)</string>
+    <string name="todo">TODO</string>
+    <string name="volver">Volver</string>
+    <string name="pagar_on_line">Pagar On Line</string>
+    <string name="subir_comprobante">Subir comprobante</string>
+    <string name="pagar_servicio">PAGAR SERVICIO</string>
+    <string name="borrar_qr">Borrar QR</string>
+    <string name="cambiar_pasaje">CAMBIAR PASAJE</string>
+
+</resources>

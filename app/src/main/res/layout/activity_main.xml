@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/content_main"
+        android:background="#FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/ll_ubicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/standard_70"
+        android:gravity="center"
+        android:padding="3dp"
+        android:layout_marginEnd="5dp"
+        android:clipToPadding="false">
+
+        <TextView
+            android:id="@+id/tv_ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/busca_tu_parada"
+            android:textColor="@color/texto2"
+            android:background="@drawable/button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/fondo2"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_ubicacion"
+            app:fabSize="mini"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_informacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/ll_ubicacion"
+        android:gravity="center"
+        android:padding="3dp"
+        android:layout_marginEnd="5dp"
+        android:clipToPadding="false">
+
+        <TextView
+            android:id="@+id/tv_informacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/informacion"
+            android:textColor="@color/texto2"
+            android:background="@drawable/button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_informacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/fondo2"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_informacion"
+            tools:targetApi="lollipop"
+            app:fabSize="mini"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pasaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/ll_informacion"
+        android:gravity="center"
+        android:padding="3dp"
+        android:layout_marginEnd="5dp"
+        android:clipToPadding="false">
+
+        <TextView
+            android:id="@+id/tv_pasaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/cambio"
+            android:textColor="@color/texto2"
+            android:background="@drawable/button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_pasaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/fondo2"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_pasaje"
+            tools:targetApi="lollipop"
+            app:fabSize="mini"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_registro"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/standard_70"
+        android:gravity="center"
+        android:padding="3dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/fondo2"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_registro"
+            tools:targetApi="lollipop"
+            app:fabSize="mini"/>
+
+        <TextView
+            android:id="@+id/tv_registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/registro"
+            android:textColor="@color/texto2"
+            android:background="@drawable/button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ayuda"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/ll_registro"
+        android:gravity="center"
+        android:padding="3dp"
+        android:visibility="visible">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_ayuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/fondo2"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_help"
+            tools:targetApi="lollipop"
+            app:fabSize="mini"/>
+
+        <TextView
+            android:id="@+id/tv_ayuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/ayuda"
+            android:textColor="@color/texto2"
+            android:background="@drawable/button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_salir"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_ayuda"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:padding="3dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/fondo2"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_exit"
+            tools:targetApi="lollipop"
+            app:fabSize="mini"/>
+
+        <TextView
+            android:id="@+id/tv_salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/salir"
+            android:textColor="@color/texto2"
+            android:background="@drawable/button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

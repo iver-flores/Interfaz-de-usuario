@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "215740706613",
+    "project_id": "interfaz-f129e",
+    "storage_bucket": "interfaz-f129e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215740706613:android:de830ed89dd1f0efbb267c",
+        "android_client_info": {
+          "package_name": "com.ivr.interfaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215740706613-cq2pfcnal2mokf22jcdqu7dqr2vk3o0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ivr.interfaz",
+            "certificate_hash": "c23b5159feed486c59a4feed635991d5c49f0313"
+          }
+        },
+        {
+          "client_id": "215740706613-bbf5khdafi0nbh5s9ehtqf2ubk86a268.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA8_KaqiNdRXcjx63FzUeYPkMpeYFoAn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215740706613-bbf5khdafi0nbh5s9ehtqf2ubk86a268.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

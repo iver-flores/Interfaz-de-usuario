@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="3dp"
+    android:background="@drawable/fondo3">
+
+    <LinearLayout
+        android:id="@+id/ll_linea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="30dp"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/ingresa_origen"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/texto1"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_height="2dp"
+                    android:background="@color/texto2"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/tv_origen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="LabelFor"
+                android:text="@string/origen"
+                android:textColor="@color/texto1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_destino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="LabelFor"
+                android:text="@string/destino"
+                android:textColor="@color/texto1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_auto_complete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_origen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:digits="0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÁáÂâÃãÀàÇçÉéÊêÍíÓóÔôÕõÚú. "
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/texto1"
+                android:gravity="center" />
+
+            <AutoCompleteTextView
+                android:id="@+id/act_destino"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:ignore="LabelFor"
+                android:digits="0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÁáÂâÃãÀàÇçÉéÊêÍíÓóÔôÕõÚú. "
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColorHighlight="@color/grey"
+                android:textColor="@color/texto1"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_linea"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/standard_40"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="@string/buscar"
+            android:textColor="@color/texto2"
+            android:background="@drawable/button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:id="@+id/tv_linea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/texto"
+            android:textStyle="bold"
+            android:padding="15dp"
+            tools:ignore="LabelFor"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ruta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginStart="15dp"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/si_tiene_una_linea"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/texto1"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_height="2dp"
+                android:background="@color/texto1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/spn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:prompt="@string/spn_title"
+                android:backgroundTint="@color/texto1"
+                android:popupBackground="@color/fondo2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <Button
+                android:id="@+id/btn_ruta"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_40"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="@string/buscar_rutas"
+                android:textColor="@color/texto2"
+                android:background="@drawable/button"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_tramo"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/standard_40"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/standard_3"
+                android:padding="@dimen/standard_2"
+                android:text="@string/ver_ida"
+                android:textColor="@color/texto2"
+                android:background="@drawable/button"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_ida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/texto_largo"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/blue"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    tools:ignore="LabelFor,RtlHardcoded"/>
+
+                <TextView
+                    android:id="@+id/tv_buelta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/texto_largo"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:scrollbars="vertical"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/purple_500"
+                    tools:ignore="LabelFor,RtlHardcoded"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ib_atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:padding="5dp"
+        android:src="@drawable/ic_close"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:id="@+id/ll_opciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/busque_su_linea_o_ruta"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/texto1"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/texto1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_buscar_linea"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_40"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="@string/busque_su_linea"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/texto2"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btn_buscar_ruta"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/standard_40"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="@string/busque_su_ruta"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/texto2"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

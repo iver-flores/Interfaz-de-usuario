@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/button.xml" value="0.37037037037037035" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/button2.xml" value="0.22291666666666668" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/circulo_rojo.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/circulo_verde.xml" value="0.3490740740740741" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/dialogo.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/fondo.xml" value="0.3453703703703704" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/fondo2.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_esquina.xml" value="0.3453703703703704" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_exit.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_familia.xml" value="0.3333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_flash.xml" value="0.32592592592592595" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_grupo.xml" value="0.3779487179487179" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_help.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_informacion.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_ip.xml" value="0.3779487179487179" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_linternaoff.xml" value="0.3333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_linternaon.xml" value="0.3333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_login.xml" value="0.3779487179487179" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_money.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_nombre.xml" value="0.3779487179487179" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_one_yellow.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_pasaje.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_salida.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_telefono.xml" value="0.3779487179487179" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_two_yellow.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_ubicacion.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/sombrabien.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/spinner.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/texto.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/texto_largo.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/toolbar.xml" value="0.3675925925925926" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/activity_inicio.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/content_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_ayuda.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_configuracion.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_info.xml" value="0.325" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_leer_qr.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_pasaje.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_qr.xml" value="0.20677083333333332" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_ubica.xml" value="0.2416452442159383" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_ubicacion.xml" value="0.20677083333333332" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/fragment_configuracion.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/fragment_esquina.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/item_datos_listview.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/lineas_search.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/qr.xml" value="0.36770833333333336" />
+        <entry key="..\:/AndroidStudioProjects/Interfaz/app/src/main/res/layout/rutas_search.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_aqui.xml" value="0.3523076923076923" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_esquina.xml" value="0.3578125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_linternaoff.xml" value="0.3578125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/drawable/ic_linternaon.xml" value="0.3578125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/activity_main.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/content_main.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_ayuda.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_informacion.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_pasaje.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/frag_dialog_ubicacion.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/fragment_configuracion.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/fragment_esquina.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/fragment_leer_qr.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/item_datos_listview.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/lineas_search.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Interfaz/app/src/main/res/layout/rutas_search.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable-v24/button2.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/button.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/button2.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/circulo_rojo.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/dialogo.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/dialogo2.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/dispositivo.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/fondo.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/fondo2.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/fondo3.xml" value="0.33" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_block_helper.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_help.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_ip.xml" value="0.3796875" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_login.xml" value="0.3796875" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_money_rojo.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_money_verde.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_one_yellow.xml" value="0.3611111111111111" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_pasaje.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_return.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_return_verde.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_two_yellow.xml" value="0.3611111111111111" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_ubicacion.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_warning.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_wifi.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/ic_wifi_verde.xml" value="0.3807291666666667" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/sombrabien.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/texto.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/texto_largo.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/texto_largo2.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/drawable/toolbar.xml" value="0.403125" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/activity_inicio.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/activity_main.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/content_main.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/frag_dialog_ayuda.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/frag_dialog_informacion.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/frag_dialog_pasaje.xml" value="0.33" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/frag_dialog_registro.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/frag_dialog_ruta.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/frag_dialog_ubicacion.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/fragment_configuracion.xml" value="0.33" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/fragment_esquina.xml" value="0.33" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/fragment_leer_qr.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/item_datos_listview.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/lineas_search.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/rutas_search.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/layout/search.xml" value="0.36354166666666665" />
+        <entry key="..\:/Users/iverf/AndroidStudioProjects/Java/Interfaz/app/src/main/res/menu/main_menu.xml" value="0.3645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
